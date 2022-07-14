@@ -1,1 +1,1 @@
-# code-scanning-javascript-demo2
+# sample-branch-protection-demo
