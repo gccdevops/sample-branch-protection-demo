@@ -18,6 +18,7 @@ through organization membership, or through another team membership.
 ```text
 Optionally, to dismiss a pull request approval review when a code-modifying commit is pushed to the branch, 
 select Dismiss stale pull request approvals when new commits are pushed.
+
 ```
 
 ## Restrict who can dismiss pull request reviews
@@ -31,6 +32,12 @@ that are no longer valid or are unable to be approved by the reviewer.
 Optionally, to allow specific actors to push code to the branch without creating pull requests when they're required, 
 select Allow specified actors to bypass required pull requests. 
 Then, search for and select the actors who should be allowed to skip creating a pull request.
+```
+
+## Restrict who can push to matching branches
+```text
+Specify people, teams, or apps allowed to push to matching branches. Required status checks will still prevent 
+these people, teams, and apps from merging if the checks fail.
 ```
 
 ## Require signed commits
