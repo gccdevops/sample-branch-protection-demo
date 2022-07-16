@@ -1,6 +1,6 @@
 # sample-branch-protection-demo
 
-## pull request review from code owner
+## Require review from Code Owners
 - add codeowners file 
 ```text
 file should be add in .github/CODEOWNERS
@@ -31,7 +31,7 @@ select Allow specified actors to bypass required pull requests.
 Then, search for and select the actors who should be allowed to skip creating a pull request.
 ```
 
-## sign commit
+## Require signed commits
 
 - try a sign commit 
 ```text
