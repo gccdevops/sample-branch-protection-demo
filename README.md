@@ -33,6 +33,12 @@ select Allow specified actors to bypass required pull requests.
 Then, search for and select the actors who should be allowed to skip creating a pull request.
 ```
 
+## Restrict who can push to matching branches
+```text
+Specify people, teams, or apps allowed to push to matching branches. Required status checks will still prevent 
+these people, teams, and apps from merging if the checks fail.
+```
+
 ## Require signed commits
 
 - try a sign commit 
