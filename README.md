@@ -18,6 +18,7 @@ through organization membership, or through another team membership.
 ```text
 Optionally, to dismiss a pull request approval review when a code-modifying commit is pushed to the branch, 
 select Dismiss stale pull request approvals when new commits are pushed.
+
 ```
 
 ## Restrict who can dismiss pull request reviews
