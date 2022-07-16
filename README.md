@@ -123,17 +123,5 @@ JFoMD5MdSTkhwla7+rg3xIeLV5/KW1HT7M0Ip13N+6xm/zwbVVDx6OiuQhRh6DO4
 =rTXX
 -----END PGP SIGNATURE-----
 ubuntu@ip-172-31-30-60:~$
-```
 
-- verify sign commit
-```text
-cqiao2@LN1GZD5Z0B467C:~/repos/sample-branch-protection-demo$ git log --show-signature -1
-commit cbfaea4c0c9bcee31b60f6b6d39c86651158249e (HEAD -> fix-002, origin/fix-002)
-gpg: Signature made Sat Jul 16 10:10:32 2022 CST
-gpg:                using RSA key 6EE08F0DF058A89B6526BF30F7981FB9AEAD30A7
-gpg: Good signature from "chaoqiao <chao.m.qiao@foxmail.com>" [ultimate]
-Author: chaoqiao <chao.m.qiao@foxmail.com>
-Date:   Sat Jul 16 10:10:32 2022 +0800
-
-    fix codeowner issue
 ```
