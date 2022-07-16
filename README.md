@@ -1,5 +1,7 @@
 # sample-branch-protection-demo
 
+[Reference Docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
+
 ## Require review from Code Owners
 - add codeowners file 
 ```text
