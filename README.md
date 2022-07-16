@@ -111,7 +111,23 @@ Date:   Sat Jul 16 10:10:32 2022 +0800
 file should be add in .github/CODEOWNERS
 People with admin or owner permissions can set up a CODEOWNERS file in a repository.
 
-The people you choose as code owners must have read permissions for the repository. When the code owner is a team, that team must be visible and it must have write permissions, even if all the individual members of the team already have write permissions directly, through organization membership, or through another team membership.
+The people you choose as code owners must have read permissions for the repository. 
+When the code owner is a team, that team must be visible and it must have write permissions, 
+even if all the individual members of the team already have write permissions directly, through organization membership, or through another team membership.
 ```
 
+## Dismiss stale pull request approvals when new commits are pushed
+```text
+Optionally, to dismiss a pull request approval review when a code-modifying commit is pushed to the branch, select Dismiss stale pull request approvals when new commits are pushed.
+```
 
+## Restrict who can dismiss pull request reviews
+```text
+If your repository requires reviews, you can dismiss pull request reviews that are no longer valid or are unable to be approved by the reviewer.
+```
+
+## Allow specified actors to bypass required pull requests
+```text
+Optionally, to allow specific actors to push code to the branch without creating pull requests when they're required, 
+select Allow specified actors to bypass required pull requests. Then, search for and select the actors who should be allowed to skip creating a pull request.
+```
